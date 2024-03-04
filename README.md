@@ -2,7 +2,7 @@
 
 ****
 
-Étape 1  Importation (lecture URL) et nettoyage des toutes les données
+Étape 1  Importation (lecture URL) et nettoyage de toutes les données
 
 ****
 
@@ -26,19 +26,19 @@ IQA par secteur en temps réel (Quotidien) - 
 
 ****
 
-- Ajouter les RSQA - Secteurs géographiques en format GEOJSON avec un _GEOJSON READER -_ 
+RSQA - Secteurs géographiques en format GEOJSON avec un _GEOJSON READER -_ 
 
 <https://donnees.montreal.ca/dataset/ab112a84-0661-4360-9573-652eed16beeb/resource/a90678ac-7ea7-464c-b615-e8f5cb9f527b/download/rsqa_secteurs.geojson>
 
-- Ajouter les Îlots de chaleur 2016 (images aéroportées) en format GEOTIFF (ou GEOJSON) avec un _GEOTIFF READER -_ <https://donnees.montreal.ca/dataset/dbdfbdba-0725-470d-a23e-da69dbedc4e6/resource/b8aff0f2-2c7b-48f5-b937-2aef5d253e22/download/ilots-de-chaleur-2016.zip>
+Îlots de chaleur 2016 (images aéroportées) en format GEOTIFF (ou GEOJSON) avec un _GEOTIFF READER -_ <https://donnees.montreal.ca/dataset/dbdfbdba-0725-470d-a23e-da69dbedc4e6/resource/b8aff0f2-2c7b-48f5-b937-2aef5d253e22/download/ilots-de-chaleur-2016.zip>
 
-- Ajouter l’ortho mosaïque 2022 pour l’île de Montréal au complet en utilisant le lien suivant avec un _WMS READER -_ [_http://sirius/erdas-iws/ogc/wms/?_](http://sirius/erdas-iws/ogc/wms/?)
+Ortho mosaïque 2022 pour l’île de Montréal au complet en utilisant le lien suivant avec un _WMS READER -_ [_http://sirius/erdas-iws/ogc/wms/?_](http://sirius/erdas-iws/ogc/wms/?)
 
-- Ajouter les Bâtiments 2D 2016 - Tous les arrondissements (COTE et TOIT) en format Shapefile avec un _ESRI SHAPEFILE READER -_ [https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments\_2d\_2016\_arrondissements.zip __](https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments_2d_2016_arrondissements.zip)
+Bâtiments 2D 2016 - Tous les arrondissements (COTE et TOIT) en format Shapefile avec un _ESRI SHAPEFILE READER -_ [https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments\_2d\_2016\_arrondissements.zip __](https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments_2d_2016_arrondissements.zip)
 
-- Ajouter la canopée 2019 (données vectorielles avec une variable 3D) avec un _GEOJSON READER -_ <https://donnees.montreal.ca/dataset/36f48854-474b-43d2-a16d-a433da8a1447/resource/77e44cc1-56b1-4e83-871d-e3990565563f/download/canopee-2019.zip>
+Canopée 2019 (données vectorielles avec une variable 3D) avec un _GEOJSON READER -_ <https://donnees.montreal.ca/dataset/36f48854-474b-43d2-a16d-a433da8a1447/resource/77e44cc1-56b1-4e83-871d-e3990565563f/download/canopee-2019.zip>
 
-- Ajouter un nuage de points Lidar en format. Laz pour la station 55 avec _LAS READER -_ <http://depot.ville.montreal.qc.ca/geomatique/lidar_aerien/2015/299-5056_2015.laz>
+Nuage de points Lidar en format. Laz pour la station 55 avec _LAS READER -_ <http://depot.ville.montreal.qc.ca/geomatique/lidar_aerien/2015/299-5056_2015.laz>
 
 ****
 
