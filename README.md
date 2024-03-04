@@ -148,4 +148,4 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 ****![](https://lh7-us.googleusercontent.com/XlJNsVp_0xbMRJ4r5aHa8b7sNlitc-F3QkVtzI2VphGispvmHtuVJFNGp7Xeazo7AMIzrZvwBOfZ5U3FeRzwits-8HRVuRK0MwYHUBfaSy03Elu_Io8FNP-ml9C4scM6OjYZ48lMkM51gpRRUhAPAn4)****
 
-**Prochaine étape : publication vers ArcGIS Online (AGOL) pour créer un tableau de bord (service web) avec _Dashboard_ ou avec _Experience Builder_.__** 
+**Prochaine étape : publication vers ArcGIS Online (AGOL) pour créer un tableau de bord (service web) avec _Dashboard_ ou _Experience Builder_.__** 
