@@ -76,7 +76,7 @@ Nuage de points Lidar en format. Laz pour la station 55 avec _LAS READER -_ <htt
 
 ****
 
-- **Pour les IQA détaillé par station en temps réel (Quotidien)**, ajouter un _Feature merge_ pour ajouter la géométrie (coordonnées) du IQA par station en temps réel (Quotidien). Cette étape doit être faite avant _Reprojetor;_
+- **Pour les IQA détaillé par station en temps réel (Quotidien)**, ajouter un _Featuremerger_ pour ajouter la géométrie (coordonnées) du IQA par station en temps réel (Quotidien). Cette étape doit être faite avant _Reprojetor;_
 
 __![](https://lh7-us.googleusercontent.com/kU3h6--arAzV5OUIlyj3oAOv6sWwQimmz0fhqlLTFwINBtkcVVZwBPLSw7V-otm1V09NY-fFmcnHnBaBTayJyq0tzMTfACife7dK50HVB8dliHn4MKGwEGXYVQymKaEkPr9AwTeBbH4fzqs05W9om6U)__
 
@@ -90,7 +90,7 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 - Ensuite publier avec un _Writer_ PostGIS (Table Qualifier KA791969).
 
-- **Pour les secteurs géographiques**, ajouter un _AttributeMerge_r pour combiner avec les IQA par secteur en temps réel (Quotidien). Cette étape doit être faite avant _Reprojetor_. 
+- **Pour les secteurs géographiques**, ajouter un _FeatureMerge_r pour combiner avec les IQA par secteur en temps réel (Quotidien). Cette étape doit être faite avant _Reprojetor_. 
 
 - Ajouter un _AttributeManager_ (pour nettoyer les colonnes au besoin). 
 
