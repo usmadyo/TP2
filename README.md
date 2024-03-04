@@ -66,7 +66,7 @@ Nuage de points Lidar en format. Laz pour la station 55 avec _LAS READER -_ <htt
 
 - **Pour les IQA par station en temps réel (Quotidien)**, ajouter un _AttributeManager_ (facultatif) pour faire un peu de ménage; 
 
-- Ajouter un _AttributeRangeMapper_ pour catégoriser les valeurs en trois catégories (selon les informations données par la Ville de Montréal;
+- Ajouter un _AttributeRangeMapper_ pour catégoriser les valeurs en trois catégories (selon les informations données par la Ville de Montréal);
 
 - Ensuite publier avec un _Writer_ PostGIS (Table Qualifier KA791969).
 
