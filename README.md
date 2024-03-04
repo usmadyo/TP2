@@ -110,7 +110,7 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 - **Pour les bâtiments 2D**, ajouter les shapefiles avec un _Esri Shapefile reader_ (sélectionner seulement COTE et TOIT). Ensuite _Reprojector_ et publier avec PostGIS (Table Qualifier KA791969).
 
-- **Pour la canopée 2019** (Données vectorielles avec une variable 3D), ajouter les données avec un _GEOJSON Reader._ Ensuite, __utiliser un _ESRI Reprojector_ (important) pour aller vers EPSG::3857 __et publier avec PostGIS (Table Qualifier KA791969).
+- **Pour la canopée 2019** (Données vectorielles avec une variable 3D), ajouter les données avec un _GEOJSON Reader. Ensuite, utiliser un _ESRI Reprojector_ (important) pour aller vers EPSG::3857 et publier avec PostGIS (Table Qualifier KA791969).
 
 - **Pour les îlots de chaleur 2016**, ajouter le raster avec un _GEOTIFF Reader,_ Ensuite, __utiliser un _Reprojector_;
 
@@ -120,7 +120,7 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 ****
 
-- Ajouter ensuite un RasterSharpener (lier avec la donnée reprojectée), ensuite un _RasterCellValueRounder_ et un _RasterToPolygonCoercer (label = classification)_. Laisses les paramètres par défaut pour ces transformateurs.Puis, publier avec un _PostGIS Writer._
+- Ajouter ensuite un RasterSharpener (lier avec la donnée reprojectée), ensuite un _RasterCellValueRounder_ et un _RasterToPolygonCoercer (label = classification)_. Laisses les paramètres par défaut pour ces transformateurs. Puis, publier avec un _PostGIS Writer._
 
 ![](https://lh7-us.googleusercontent.com/Fnu0sLnam8shj8e9Lvi0_Bo5jAM9q2bkWQzXvvObTEE-gzSj00h1ybTeS_hb5bt6XrbWCX2u6PLvVd4Eq6jl7q4eBVMur2TAKPPS31ovuIXZCAF2qgR15JekYqdP7WZRcbyfGt_ExJxnf4jyBewMiT0)
 
