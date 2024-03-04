@@ -34,7 +34,7 @@ RSQA - Secteurs géographiques en format GEOJSON avec un _GEOJSON READER -_ 
 
 Ortho mosaïque 2022 pour l’île de Montréal au complet en utilisant le lien suivant avec un _WMS READER -_ [_http://sirius/erdas-iws/ogc/wms/?_](http://sirius/erdas-iws/ogc/wms/?)
 
-Bâtiments 2D 2016 - Tous les arrondissements (COTE et TOIT) en format Shapefile avec un _ESRI SHAPEFILE READER -_ [https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments\_2d\_2016\_arrondissements.zip __](https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments_2d_2016_arrondissements.zip)
+Bâtiments 2D 2016 - Tous les arrondissements (COTE et TOIT) en format Shapefile avec un _ESRI SHAPEFILE READER -_ [https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments\_2d\_2016\_arrondissements.zip __](https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments_2d_2016_arrondissements.zip
 
 Canopée 2019 (données vectorielles avec une variable 3D) avec un _GEOJSON READER -_ <https://donnees.montreal.ca/dataset/36f48854-474b-43d2-a16d-a433da8a1447/resource/77e44cc1-56b1-4e83-871d-e3990565563f/download/canopee-2019.zip>
 
@@ -88,7 +88,7 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 - Ajouter un _AttributeRangeMapper_ avec les mêmes paramètres; 
 
-- Ensuite publier avec un _Writer_ PostGIS (Table Qualifier KA791969).
+- Ensuite publier avec un PostGIS Writer (Table Qualifier KA791969).
 
 - **Pour les secteurs géographiques**, ajouter un FeatureMerger pour combiner avec les IQA par secteur en temps réel (Quotidien). Cette étape doit être faite avant _Reprojetor_. 
 
@@ -98,7 +98,7 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 - Ajouter un _AttributeRangeMapper_ avec les mêmes paramètres que les autres utilisés auparavant.
 
-- Ensuite publier avec un _Writer_ PostGIS (Table Qualifier KA791969)
+- Ensuite publier avec un PostGIS Writer (Table Qualifier KA791969)
 
 **![](https://lh7-us.googleusercontent.com/mt2S3XLDZLBdqRN1Kfbb_AtEpwKJtuKLJcxIPuah8pG4fo2JHj6xIc67do3qaw9DFJJ5EbF9UwssA2za3KngMT80wo0oDioOmO94zhyOPS-FTwTBYl-mcphtlb0V1-zwUxGceqeSv7I29rEEvCIcyYg)**
 
@@ -120,7 +120,7 @@ __![](https://lh7-us.googleusercontent.com/3kp5wjZvAa0A_PSKAQAKKm-vL8EzXtBtMp9bn
 
 ****
 
-- Ajouter ensuite un Raster Sharpener (lier avec la donnée reprojectée), ensuite un _RasterCellValueRounder_ et un _RasterToPolygonCoercer (label = classification)_. Laisses les paramètres par défaut pour ces transformateurs.Puis, publier avec un _PostGIS Writer._
+- Ajouter ensuite un RasterSharpener (lier avec la donnée reprojectée), ensuite un _RasterCellValueRounder_ et un _RasterToPolygonCoercer (label = classification)_. Laisses les paramètres par défaut pour ces transformateurs.Puis, publier avec un _PostGIS Writer._
 
 ![](https://lh7-us.googleusercontent.com/Fnu0sLnam8shj8e9Lvi0_Bo5jAM9q2bkWQzXvvObTEE-gzSj00h1ybTeS_hb5bt6XrbWCX2u6PLvVd4Eq6jl7q4eBVMur2TAKPPS31ovuIXZCAF2qgR15JekYqdP7WZRcbyfGt_ExJxnf4jyBewMiT0)
 
