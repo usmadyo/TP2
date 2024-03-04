@@ -1,0 +1,18 @@
+
+1) IQA détaillé par station en temps réel (Quotidien) - https://donnees.montreal.ca/dataset/3e9f7b96-3f25-4404-a5ad-22d9a31060e6/resource/a25fdea2-7e86-42ac-8301-ca77db3ff17e/download/rsqa-indice-qualite-air.csv
+
+2) IQA par station en temps réel (Quotidien) - https://donnees.montreal.ca/dataset/3e9f7b96-3f25-4404-a5ad-22d9a31060e6/resource/ccd5a4b7-cbca-4f5f-a746-ad8c576af374/download/rsqa-indice-qualite-air-station.csv
+
+3) IQA par secteur en temps réel (Quotidien) - https://donnees.montreal.ca/dataset/3e9f7b96-3f25-4404-a5ad-22d9a31060e6/resource/9c7434e9-f5af-4154-991c-293fbd5cb626/download/rsqa-indice-qualite-air-secteur.csv
+
+4) RSQA - Secteurs géographiques en format GEOJSON avec un GEOJSON READER - https://donnees.montreal.ca/dataset/ab112a84-0661-4360-9573-652eed16beeb/resource/a90678ac-7ea7-464c-b615-e8f5cb9f527b/download/rsqa_secteurs.geojson
+
+5) Les Îlots de chaleur 2016 (images aéroportées) en format GEOTIFF (ou GEOJSON) avec un GEOTIFF READER - https://donnees.montreal.ca/dataset/dbdfbdba-0725-470d-a23e-da69dbedc4e6/resource/b8aff0f2-2c7b-48f5-b937-2aef5d253e22/download/ilots-de-chaleur-2016.zip
+
+6) Ortho mosaïque 2022 pour l’île de Montréal au complet en utilisant le lien suivant avec un WMS READER - http://sirius/erdas-iws/ogc/wms/?
+
+7) Bâtiments 2D 2016 - Tous les arrondissements (COTE et TOIT) en format Shapefile avec un ESRI SHAPEFILE READER - https://donnees.montreal.ca/dataset/fab160ae-c81d-46f8-8f92-4a01c10d4390/resource/183866d5-9027-456a-b0af-36b2e45c8aac/download/batiments_2d_2016_arrondissements.zip 
+
+8) Canopée 2019 (données vectorielles avec une variable 3D) avec un GEOJSON READER - https://donnees.montreal.ca/dataset/36f48854-474b-43d2-a16d-a433da8a1447/resource/77e44cc1-56b1-4e83-871d-e3990565563f/download/canopee-2019.zip
+
+9) Nuage de points Lidar en format. Laz pour la station 55 avec LAS READER - http://depot.ville.montreal.qc.ca/geomatique/lidar_aerien/2015/299-5056_2015.laz
